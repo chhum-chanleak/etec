@@ -27,6 +27,12 @@ header {
   justify-content: space-around;
 }
 
+@media only screen and (max-width: 768px) {
+  header {
+    height: 12vh;
+  }
+}
+
 .header {
   padding: 12px
 }
@@ -44,6 +50,12 @@ main {
   align-items: center;
 }
 
+@media only screen and (max-width: 768px) {
+  main {
+    height: 28vh;
+  }
+}
+
 .main-left,.main-right {
   height: 90%;
   width: 70%;
@@ -53,6 +65,12 @@ main {
   display: flex;
   flex-direction: column;
   gap: 8px
+}
+
+@media only screen and (max-width: 768px) {
+  .main-left,.main-right {
+    width: 62%;
+  }
 }
 
 .main-left .section {
@@ -75,3 +93,5 @@ footer {
   display: flex;
   align-items: center;
 }
+
+
