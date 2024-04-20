@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/bizbud.css"> <!-- style is here!-->
+  <title>BizBud</title>
+
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+
+      <div class="header-logo">
+        <h2>BizBud</h2>
+      </div>
+      <div class="header-navbar">
+        <ul>
+          <li class="home"><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Clients</a></li>
+          <li><a href="">Testimonials</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div> 
+      <div class="header-btn">
+        <button onclick="{
+          callMsg();
+        }" class="call-btn">Call Now!</button>
+      </div>
+
+    </div>
+
+    <div class="main">
+
+      <div class="main-txt">
+        <div class="txt">
+          <h1>The Power<br> of Good Advice.</h1>
+          <p>I'm a paragraph. Click here to add your<br> own text and edit me.</p>
+          <button onclick="{
+            display();
+          }" class="btn" type="button">Learn More</button>
+        </div>
+      </div>
+
+      <div class="main-msg">
+        <p class="call-msg"></p>
+      </div>    
+
+    </div>
+
+    <div class="footer">
+      <div class="footer-img">
+        <img src="/images/wave_graph.avif" alt="">
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+
+    // display 'Line is busy!' message when 'Call Now!' button is clicked.
+    function  callMsg(){
+
+      const message = document.querySelector('.call-msg');
+
+      message.innerHTML === '' ? 
+      message.innerHTML = 'Line is busy!' : 
+      message.innerHTML = '';
+    }
+
+  </script>
+</body>
+</html>

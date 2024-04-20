@@ -1,0 +1,95 @@
+*{
+
+}
+
+.container{
+  height: auto;
+  width: 80%;
+  margin: auto;
+  border: 2px solid black;
+  margin-top: 80px;
+}
+
+.header{  /* header-start */
+  width: 100%;
+  margin: auto;
+  height: 10vh;
+  border: 0 0 4px 0;
+  border: 1px solid gray;
+}
+
+.header ul{
+  list-style: none;
+  display: flex; 
+  justify-content: space-between; 
+  color: black;
+  width: 70%;
+  margin: auto;
+  margin-top: 36px;
+}
+
+.header ul li a{
+  color: gray;
+  text-decoration: none;
+}
+
+.header ul li a:hover{
+  color: skyblue;
+}
+
+.main{  /* main-start */
+  width: 80%;
+  margin: auto;
+  padding-bottom: 24px;
+}
+
+.main-title{
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title > :nth-child(1){
+  display: flex;
+  justify-content: center;
+  font-size: 38px;
+  color: gray;
+  height: 12px;
+}
+
+.main-title > :nth-child(2){
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 24px;
+}
+
+.main-table table tr{
+  height: 48px;
+}
+
+.main-table .table-data{
+  display: flex;
+  gap: 24px;
+}
+
+.main-table .table-data p{  
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+
+.main-table img {
+  width: 200px;
+  height: 120px;
+  border-radius: 6px;
+  padding-left: 24px  ;
+  display: flex;
+  align-items: center;
+}
+
+.main-table #first-txt{
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0;
+}

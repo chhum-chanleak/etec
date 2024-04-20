@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/health_care.css"> <!-- style is here!-->
+  <title>Health Care</title>
+
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+
+      <div class="header-logo">
+        <h2>Health Care</h2>
+      </div>
+      <div class="header-navbar">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Facility</a></li>
+          <li><a href="">Review</a></li>
+          <li><a href="">Content</a></li>
+          <li><a href="">Post</a></li>
+        </ul>
+      </div> 
+
+    </div>
+
+    <div class="main">
+
+      <div class="main-img">
+        <img src="https://i.pinimg.com/736x/9d/17/04/9d1704b0f3d9135472efba85d75321be.jpg" alt="">
+      </div>
+      <div class="main-txt">
+        <div class="txt">
+          <h2>Stay Saft Health Care.</h2>
+          <p>Caring for your life.</p>
+          <button onclick="{
+            display();
+          }" class="btn" type="button">Learn More</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="main-msg">
+      <p class="msg"></p>
+    </div>
+
+  </div>
+
+  <script>
+
+    // display 'Nothing to learn' message when 'Learn More' button is clicked.
+    function display(){
+
+      const message = document.querySelector('.msg');
+
+      message.innerHTML === '' ? 
+      message.innerHTML = 'Nothing to learn!' : 
+      message.innerHTML = '';
+    }
+
+  </script>
+</body>
+</html>

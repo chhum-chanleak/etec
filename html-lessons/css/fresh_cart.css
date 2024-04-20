@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: auto;
+}
+
+.header{
+  width: 86%;
+  margin: auto;
+  height: 18vh;
+}
+
+.header-top{  /* header-top */
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top .top-right ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-top .top-right ul li{
+  margin: 12px;
+}
+
+.header-top .top-right ul li:hover{
+  background-color: gray;
+}
+
+.header-top .top-right ul li a{
+  color: black; 
+  text-decoration: none;
+}
+
+.header-top .top-left{
+  padding: 12px 0 0 0;
+  display: flex;
+  gap: 12px;
+}
+
+.header-top .top-left select{
+  border-radius: 6px;
+  border: none;
+}
+
+.header .header-mid{  /* header-mid */
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 24px 0;
+}
+
+.header .header-mid .logo{
+  display: flex;
+  align-items: center;
+  gap: 2px
+}
+
+.header .header-mid .logo p{
+  font-size: 20px;  
+}
+
+.header .header-mid .logo i{
+  color: greenyellow;
+}
+.header .header-mid .search-bar{
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.header .header-mid .search-bar input{
+  width: 24rem;
+  height: 2rem;
+  border-radius: 6px;
+  border: 1px solid gray;
+  padding-left: 12px;
+}
+
+.header .header-mid .search-bar button{
+  width: 4rem;
+  height: 2rem;
+  background-color: yellowgreen;
+  border-radius: 6px;
+}
+
+.header .header-mid .search-bar button:hover{
+  cursor: pointer;
+}
+
+.header-mid .icons ul{
+  display: flex;
+  list-style: none;
+}
+
+.header-mid .icons ul li{
+  margin: 12px;
+}
+
+.header-mid .icons ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-mid .icons ul li a:hover{
+  background-color: gray;
+}
+
+.header-bottom{ /* header-bottom */
+  width: 80%;
+}
+
+.header-bottom ul{
+  display: flex;
+}
+
+.header-bottom ul li{
+  list-style: none;
+  margin-right: 50px;
+}
+
+
+.header-bottom ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.header-bottom ul li a:hover{
+  background-color: gray;
+}
+
+.header-bottom .a1{
+  display: flex;
+  gap: 4px;
+}
+
+.header-bottom select{
+ border: none;
+}
+
+.main{
+  width: 86%;
+  margin: auto;
+  padding-top: 48px;
+}
+
+.main-img{
+  width: 100%;
+}
+
+.main-img img{
+  border-radius: 6px;
+}

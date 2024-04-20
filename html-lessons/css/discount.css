@@ -1,0 +1,244 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  background-color: aliceblue;
+  height: auto;
+}
+
+header .navbar{     /* header-start */
+  background-color: green;
+  width: 96%;
+  margin: auto;
+  height: 76px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.navbar ul li{
+  margin: 48px;
+  margin-top: 24px;
+}
+
+.navbar ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover{
+  color: gray;
+}
+
+header .logo{
+  width: 96%;
+  margin: auto;
+}
+
+.logo img{
+  width: 100%;
+  height: 24vh;
+}
+
+main{
+  width: 96%;
+  margin: auto;
+  height: auto;
+}
+
+main .cards{
+  padding: 12px;
+  display: flex;
+  gap: 24px;
+  border: none;
+}
+
+.cards .card{
+  width: 22%;
+  padding: 12px;
+  border-radius: 6px 0 6px 0;
+  height: 24vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.card img{
+  width: 200px;
+  border-radius: 6px 0 6px 0;
+  height: 140px;
+}
+
+.card small{
+  color: gray;
+  width: 80%;
+  margin: auto;
+}
+
+.card h4{
+  margin-top: 12px;
+  color: orange ;
+}
+
+.forms{
+  height: 20vh;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border-bottom: 2px dotted gray;
+}
+
+.form-left{
+  height: 18vh;
+  width: 56%;
+  padding: 12px;
+}
+
+.form-left .title{
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 48%;
+}
+
+.form-left .title p{
+  color: gray;
+  margin-bottom: 12px;
+}
+
+.name-form{
+  margin-top: 24px;
+}
+
+.label{
+  display: flex;
+  gap: 6px;
+}
+
+.txt{
+  display: flex;
+  gap: 94px;
+}
+
+.form-right{
+  height: 18vh;
+  width: 42%;
+  padding: 12px;
+}
+
+.form-right .title{
+  display: flex;
+  gap: 6px;
+  margin-bottom: 24px;
+  margin-top: 12px;
+}
+
+.form-dob{
+  display: flex;
+  padding: 12px;
+  border: none;
+  border-bottom: 2px dotted gray;
+}
+
+.form-dob .form-left{
+  height: 6vh;
+}
+
+.form-dob .form-right{
+  height: 6vh;
+}
+
+.form-dob .form-left .dob-form{
+  margin-top: 6px;
+}  
+
+.form-dob .form-left .selects{
+  display: flex;
+  gap: 12px;
+}
+
+.selects .select{
+  display: flex;
+  flex-direction: column;
+}
+
+.selects #day{
+  width: 48px;
+}
+
+.selects #month{
+  width: 86px;
+}
+
+.selects #year{
+  width: 48px;
+}
+
+.form-dob .form-right .input h4{
+  margin-top: 12px;
+}
+
+.form-age{
+  display: flex;
+  padding: 12px;
+  border: none;
+  border-bottom: 2px dotted gray;
+}
+
+.form-age .form-left{
+  height: 22vh;
+}
+
+.form-age .form-right{
+  height: 22vh;
+}
+
+.form-age .form-left input{
+  width: 48px;
+}
+
+.form-left .gender-form .label{
+  margin-top: 24px;
+}
+
+.form-cob{
+  display: flex;
+  padding: 12px;
+}
+
+.form-cob .select select{
+  width: 182px;
+  margin-top: 6px;
+}
+
+.form-cob .form-left{
+  height: 4vh;
+}
+
+.form-cob .form-right{
+  height: 4vh;
+}
+
+.recruiter-form input{
+ width: 180px;
+}
+
+.stars{
+  color: red;
+}
+
+small{
+  color: gray;
+}
+
+h4{
+  margin-bottom: 6px;
+}
+
+

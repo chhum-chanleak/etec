@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #fefef6;
+}
+
+.container{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+  width: 80%;
+  height: 8vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}    
+
+.header ul li{
+  margin: 12px;
+  height: 100px;
+}
+
+.header-logo{
+  display: flex;
+  align-items: center;
+}
+
+.header a:hover{
+  text-decoration: underline;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.header a{
+  text-decoration: none;
+  color: black;
+}
+
+.header .header-btn {
+  display: flex;
+  align-items: center;
+}
+
+.header-btn button{
+  height: 6vh;
+  width: 6lh;
+  border-radius: 6px;
+  background-color: #ff9201;
+  padding: 4px;
+  border: 2px solid black;
+}
+
+.header-btn button:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.header-navbar ul .home a{
+  color: #ff9201;
+}
+
+
+.main{
+  width: 80%;
+  margin: auto;
+  padding-left: 8rem;
+  margin-bottom: 12rem;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-txt .txt p{
+  margin: 1rem 0 3rem 0;
+}
+
+.main-txt .txt h1{
+  font-size: 4rem;
+}
+
+.main-txt{
+  display: flex;
+  align-items: center;
+;
+}
+
+.main-txt .txt h2{
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+}
+
+.main-txt .txt button{
+  background-color: #ff9201;
+  height: 4vh;
+  padding: 4px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+
+.main-txt .txt button:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.main-msg .call-msg{
+  font-size: 4rem;
+  color: #ff9201;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+margin: 0;
+padding: 0;
+}
+
+.footer .footer-img img{
+  width: 100%;
+  height: 56vh;
+}
+
+ul{
+  margin: 12px;
+  list-style: none;
+  padding-top: 6px;
+  display: flex;
+  align-items: center;
+ 
+}
