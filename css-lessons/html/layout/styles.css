@@ -52,6 +52,16 @@ main {
   background-color: #b2d5fe;
   padding: 12px;
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px
+}
+
+.main-left .section {
+  background-color: #f7b767;
+  height: 32%;
+  border-radius: 4px;
+  padding: 12px;
 }
 
 .main-right {
