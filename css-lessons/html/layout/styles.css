@@ -70,4 +70,8 @@ main {
 footer {
   height: 4vh; 
   background-color: #75e0f6;
+  padding: 12px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
 }
